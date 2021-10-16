@@ -1,0 +1,27 @@
+Circuit: *load regulation
+
+Per .tran options, skipping operating point for transient analysis.
+.step iload=0.1
+.step iload=0.2
+.step iload=0.3
+.step iload=0.4
+.step iload=0.5
+
+Date: Sat Oct 16 18:55:51 2021
+Total elapsed time: 75.573 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1488328
+traniter = 1488328
+tranpoints = 631772
+accept = 448749
+rejected = 183023
+matrix size = 67
+fillins = 28
+solver = Normal
+Thread vector: 12.8/9.5[2] 8.2/4.9[2] 7.0/3.7[2] 0.7/58.0[1]  2592/500
+Matrix Compiler1: 5.46 KB object code size  5.1/3.2/[1.0]
+Matrix Compiler2: 5.83 KB object code size  1.9/3.9/[0.9]
+

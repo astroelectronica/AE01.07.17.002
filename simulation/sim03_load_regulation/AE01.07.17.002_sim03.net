@@ -1,0 +1,6 @@
+*load regulation
+.inc ../AE01.07.17.002.cir
+.param VSOURCE=25
+.step param ILOAD 100m 500m 100m
+.param x_base=5m
+.tran 0 {x_base} 0 uic startup
